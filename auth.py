@@ -1,2 +1,2 @@
 def login():
-    return "default"
+    return "user"
