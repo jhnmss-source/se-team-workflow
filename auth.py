@@ -1,2 +1,2 @@
-def login():
-    return "user"
+def login(role="user"):
+    return "admin" if role == "admin" else "user"
